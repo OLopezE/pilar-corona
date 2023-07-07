@@ -12,7 +12,7 @@ const MainMenu = () => {
       <img src={portfolio} alt='portfolio main image' />
       <h3>PILAR CORONA</h3>
       <Link to='/'>ABOUT ME</Link>
-      <Link to='/'>CURRICULUM VITAE</Link>
+      <Link to='/curriculum-vitae'>CURRICULUM VITAE</Link>
       <Link to='/'>ARCHITECTURE</Link>
       <Link to='/'>FURNITURE</Link>
       <Link to='/'>EXTRA</Link>

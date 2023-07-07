@@ -67,3 +67,21 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+@font-face {
+  font-family: 'banner';
+  src: url('/assets/fonts/pvc-banner-trial.otf');
+}
+
+@font-face {
+  font-family: 'open-sans';
+  src: url('/assets/fonts/OpenSans.ttf');
+}
+
+a {
+  font-family: 'banner';
+}
+
+h3 {
+  font-family: 'open-sans';
+}
