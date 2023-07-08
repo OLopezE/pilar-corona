@@ -5,7 +5,13 @@ const MainMenuContent = styled.section`
   gap: 1rem;
 
   > a {
-    color: white;
+    font-size: 0.6rem;
+    transition: 0.2s;
+
+    &:hover {
+      transform: scale(1.1);
+      color: #d971f1;
+    }
   }
 
   >h3 {

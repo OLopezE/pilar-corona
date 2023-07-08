@@ -79,7 +79,9 @@ button:focus-visible {
 }
 
 a {
+  all: unset;
   font-family: 'banner';
+  cursor: pointer;
 }
 
 h3 {
