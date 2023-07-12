@@ -24,9 +24,14 @@ const CurriculumWrapper = styled.section`
 const CurriculumGrid = styled.div`
   position: absolute;
   overflow-y: auto;
+  overflow-x: hidden;
   display: grid;
   height: 100%;
   width: 100%;
+
+  h1 {
+    font-size: 2.2rem;
+  }
 
   > div {
     border-bottom: 10px dashed white;
