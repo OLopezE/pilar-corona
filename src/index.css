@@ -78,12 +78,17 @@ button:focus-visible {
   src: url('/assets/fonts/OpenSans.ttf');
 }
 
+@font-face {
+  font-family: 'nimbus';
+  src: url('/assets/fonts/NimbusSanL-Reg.otf');
+}
+
 a {
   all: unset;
-  font-family: 'banner';
+  font-family: 'nimbus';
   cursor: pointer;
 }
 
-h3 {
+h1, h2, h3, p {
   font-family: 'open-sans';
 }

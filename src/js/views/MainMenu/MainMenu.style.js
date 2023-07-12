@@ -5,11 +5,10 @@ const MainMenuContent = styled.section`
   gap: 1rem;
 
   > a {
-    font-size: 0.6rem;
-    transition: 0.2s;
+    transition: 0.4s;
 
     &:hover {
-      transform: scale(1.1);
+      /* transform: scale(1.1); */
       color: #d971f1;
     }
   }
