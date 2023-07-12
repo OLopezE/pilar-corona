@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 const CurriculumWrapper = styled.section`
+  position: relative;
+  overflow: hidden;
   background: rgb(0,0,0);
   background: radial-gradient(circle, rgba(0,0,0,1) 34%, rgba(69,124,66,1) 100%);
   background-size: 400% 400%;
@@ -20,15 +22,20 @@ const CurriculumWrapper = styled.section`
 `;
 
 const CurriculumGrid = styled.div`
+  position: absolute;
+  overflow-y: auto;
   display: grid;
   height: 100%;
   width: 100%;
 
   > div {
-    margin: 2rem;
-    background-color: red;
+    border-bottom: 10px dashed white;
+    padding: 0 1rem;
   }
-  /* border: 1px solid white; */
+
+  li {
+    text-align: left;
+  }
 `;
 
 export {
