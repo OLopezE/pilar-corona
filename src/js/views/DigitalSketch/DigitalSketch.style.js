@@ -1,17 +1,22 @@
 import styled from 'styled-components';
 
 const DigitalSketchLayout = styled.section`
+  height: 100svh;
   display: grid;
-  padding: 1rem;
+  place-items: center;
+  overflow: hidden;
 
+  > div {
+    padding: 1rem;
 
-  > h2 {
-    text-align: left;
-    letter-spacing: 1rem;
-  }
+    > h2 {
+      text-align: left;
+      letter-spacing: 1rem;
+    }
 
-  @media (min-width: 980px) {
-    padding: 10rem;
+    @media (min-width: 980px) {
+      padding: 8rem;
+    }
   }
 `;
 

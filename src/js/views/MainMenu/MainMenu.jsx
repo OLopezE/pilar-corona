@@ -1,10 +1,12 @@
-import DigitalSketch from '../DigitalSketch/DigitalSketch';
+import DigitalSketch from '../DigitalSketch';
+import FurnitureDesign from '../FurnitureDesign';
 
 import { MainMenuContent } from './MainMenu.style';
 
 const MainMenu = () => {
   return (
     <MainMenuContent>
+      <FurnitureDesign />
       <DigitalSketch />
       {/* <LinkContainer>
         <Link to='/'>About me</Link>
