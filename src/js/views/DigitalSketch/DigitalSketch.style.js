@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const DigitalSketchLayout = styled.section`
-  height: 100svh;
+  min-height: 100svh;
   display: grid;
   place-items: center;
   overflow: hidden;
