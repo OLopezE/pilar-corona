@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const FurnitureDesignContainer = styled.section`
-  height: 100svh;
+  min-height: 100svh;
   width: 100%;
   display: grid;
   place-items: center;
@@ -22,7 +22,6 @@ const FurnitureDesignContainer = styled.section`
 
   > div {
     padding: 1rem;
-
   }
 `;
 
