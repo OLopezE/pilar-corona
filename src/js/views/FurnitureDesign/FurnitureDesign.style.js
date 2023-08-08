@@ -21,7 +21,7 @@ const FurnitureDesignContainer = styled.section`
   }
 
   > div {
-    padding: 1rem;
+    padding: 2rem 1rem;
   }
 `;
 
@@ -29,6 +29,13 @@ const FurnitureDesignContainer = styled.section`
 const ImageGrid = styled.div`
   display: grid;
   gap: 1rem;
+  align-items: center;
+
+  > p {
+    text-align: justify;
+    font-family: open-sans;
+    font-weight: 500;
+  }
 
   > img {
     width: 100%;
