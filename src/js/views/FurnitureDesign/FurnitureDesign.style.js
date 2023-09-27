@@ -1,27 +1,29 @@
 import styled from "styled-components";
 
 const FurnitureDesignContainer = styled.section`
-  min-height: 100svh;
-  width: 100%;
   display: grid;
   place-items: center;
 
   background-image: linear-gradient(#888 .1rem, transparent .1rem), linear-gradient(90deg, #888 .1rem, transparent .1rem);
-  background-size: 9rem 9rem;
+  background-size: calc(99vw / 4) calc(99vw / 4);
   border-bottom: .2rem solid #888;
 
   @media (min-width: 980px) {
     padding: 8rem;
-    background-size: 16rem 16rem;
+    background-size: calc(99vw / 10) calc(99vw / 10);
   }
 
   h2 {
     text-align: left;
-    letter-spacing: 1rem;
+    letter-spacing: 1.2rem;
   }
 
   > div {
     padding: 2rem 1rem;
+  }
+
+  p {
+    font-size: 1.2rem;
   }
 `;
 

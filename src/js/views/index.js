@@ -3,5 +3,5 @@ import MainMenu from "./MainMenu";
 
 export {
   Curriculum,
-  MainMenu
+  MainMenu,
 }
