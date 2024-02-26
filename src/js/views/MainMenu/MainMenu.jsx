@@ -9,9 +9,9 @@ const MainMenu = () => {
   return (
     <MainMenuContent>
       <TitlePage />
-      <Renovation />
+      {/* <Renovation />
       <FurnitureDesign />
-      <DigitalSketch />
+      <DigitalSketch /> */}
     </MainMenuContent>
   );
 };

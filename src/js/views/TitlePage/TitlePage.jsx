@@ -1,12 +1,12 @@
 import React from 'react'
 
 import { TitlePageSection } from './TitlePage.style';
+import portfolio from '/assets/images/PORTFOLIO-nobg.png';
 
 const TitlePage = () => {
   return (
     <TitlePageSection>
-      <h1>PILAR CORONA</h1>
-      <h2>PORTFOLIO</h2>
+      <img src={portfolio} />
     </TitlePageSection>
   )
 }
