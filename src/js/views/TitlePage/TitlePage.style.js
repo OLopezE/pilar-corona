@@ -29,6 +29,13 @@ const TitlePageSection = styled.section`
   button {
     background-color: #17FC2A;
     color: #111111;
+    font-size: 1.5rem;
+    transition: all 0.2s;
+
+    &:hover {
+      transform: scale(1.02);
+      filter: opacity(0.5);
+    }
   }
 
   @media (min-width: 980px) {

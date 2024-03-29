@@ -8,7 +8,6 @@ const TitlePage = () => {
     <TitlePageSection>
       <img src={portfolio} />
       <div>
-        <p>Pilar corona</p>
         <button>Contact me</button>
       </div>
     </TitlePageSection>

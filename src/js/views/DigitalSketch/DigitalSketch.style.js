@@ -22,7 +22,8 @@ const DigitalSketchLayout = styled.section`
 
 const ImageGrid = styled.div`
   display: grid;
-  gap: 1rem;
+  gap: 1.5rem;
+  grid-template-columns: repeat(2, 1fr);
 
   > img {
     width: 100%;
@@ -30,16 +31,6 @@ const ImageGrid = styled.div`
 
   @media (min-width: 980px) {
     grid-template-columns: repeat(6, 1fr);
-
-    > img {
-      filter: grayscale(100);
-      transition: 0.3s;
-
-      &:hover {
-        filter: grayscale(0);
-        transform: scale(1.1);
-      }
-    }
   }
 `;
 
