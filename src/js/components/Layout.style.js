@@ -37,7 +37,7 @@ const LogoButton = styled.button`
 const NavigationBar = styled.div`
   display: ${({ visibility }) => visibility ? 'flex' : 'none'};
   position: fixed;
-  top: 4rem;
+  top: 6rem;
   right: 1.2rem;
   width: 100%;
   flex-direction: column;
@@ -45,6 +45,9 @@ const NavigationBar = styled.div`
   gap: 2rem;
   justify-content: center;
   z-index: 10;
+  background-color: #17FC2A;
+  padding: 1rem;
+  width: fit-content;
 
   @media (min-width: 980px) {
     display: flex;
@@ -76,7 +79,7 @@ const NavigationBar = styled.div`
 const BurgerButton = styled.button`
   position: fixed;
   right: 1rem;
-  top: 1rem;
+  top: 2rem;
   width: 2rem;
   background-color: transparent;
   display: grid;

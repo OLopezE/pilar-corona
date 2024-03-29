@@ -32,6 +32,7 @@ const ImageGrid = styled.div`
   display: grid;
   gap: 1rem;
   align-items: center;
+  grid-template-columns: repeat(2, 1fr);
 
   > p {
     text-align: justify;
