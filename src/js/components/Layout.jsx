@@ -37,10 +37,11 @@ const Layout = ({ children }) => {
         <Link to="/contact">Contact me</Link>
       </NavigationBar>
 
+      {children}
+
       <BrandName>
         Pilar Corona
       </BrandName>
-      {children}
     </MyLayout>
   )
 };
