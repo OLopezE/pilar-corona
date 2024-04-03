@@ -2,14 +2,14 @@ import styled from "styled-components";
 
 const FurnitureDesignContainer = styled.section`
   display: grid;
-  place-items: center;
+  min-height: 100svh;
+  padding-top: 4rem;
 
   background-image: linear-gradient(#888 .1rem, transparent .1rem), linear-gradient(90deg, #888 .1rem, transparent .1rem);
   background-size: calc(99vw / 4) calc(99vw / 4);
   border-bottom: .2rem solid #888;
 
   @media (min-width: 980px) {
-    padding: 8rem;
     background-size: calc(99vw / 10) calc(99vw / 10);
   }
 

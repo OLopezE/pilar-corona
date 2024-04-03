@@ -1,14 +1,17 @@
-import React, { Fragment } from 'react'
+import React from 'react'
+
+import { ProjectsSection } from './Projects.style';
 
 import DigitalSketch from '../DigitalSketch/DigitalSketch'
 import FurnitureDesign from '../FurnitureDesign';
 
 const Projects = () => {
   return (
-    <Fragment>
-      <DigitalSketch />
-      <FurnitureDesign />
-    </Fragment>
+    <ProjectsSection>
+        <h1>My architecture projects</h1>
+        <DigitalSketch />
+        <FurnitureDesign />
+    </ProjectsSection>
   )
 }
 

@@ -13,10 +13,6 @@ const DigitalSketchLayout = styled.section`
       text-align: left;
       letter-spacing: 1rem;
     }
-
-    @media (min-width: 980px) {
-      padding: 8rem;
-    }
   }
 `;
 

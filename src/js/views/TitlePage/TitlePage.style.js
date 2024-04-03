@@ -22,18 +22,6 @@ const TitlePageSection = styled.section`
     margin: 0;
   }
 
-  button {
-    background-color: #17FC2A;
-    color: #111111;
-    font-size: 1.5rem;
-    transition: all 0.2s;
-
-    &:hover {
-      transform: scale(1.02);
-      filter: opacity(0.5);
-    }
-  }
-
   @media (min-width: 980px) {
     background-size: 100%;
 
@@ -47,4 +35,21 @@ const TitlePageSection = styled.section`
   }
 `;
 
-export { TitlePageSection };
+const MyButton = styled.button`
+  background-color: transparent;
+  background-size: 400%;
+  border: 2px solid #17FC2A;
+  font-size: 1.5rem;
+  transition: all 0.2s;
+  box-shadow: 4px 4px #17FC2A;
+
+  &:hover {
+    background-color: #17FC2A;
+    border: 2px solid #ea9cf4;
+    box-shadow: 4px 4px #ea9cf4;
+    transform: scale(1.02);
+    color: #111111;
+  }
+`;
+
+export { TitlePageSection, MyButton };

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { TitlePageSection } from './TitlePage.style';
+import { TitlePageSection, MyButton } from './TitlePage.style';
 import portfolio from '/assets/images/PORTFOLIO-nobg.png';
 
 const TitlePage = () => {
@@ -8,7 +8,7 @@ const TitlePage = () => {
     <TitlePageSection>
       <img src={portfolio} />
       <div>
-        <button>Contact me</button>
+        <MyButton>Contact me</MyButton>
       </div>
     </TitlePageSection>
   )

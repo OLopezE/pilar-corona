@@ -97,9 +97,8 @@ const BurgerButton = styled.button`
 `;
 
 const BrandName = styled.p`
-  position: fixed;
-  right: 1rem;
-  bottom: 1rem;
+  text-align: right;
+  padding-right: 2rem;
 `;
 
 export {
