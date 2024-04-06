@@ -37,11 +37,13 @@ const TitlePageSection = styled.section`
 
 const MyButton = styled.button`
   background-color: transparent;
+  color: #e1e2e2;
   background-size: 400%;
   border: 2px solid #17FC2A;
   font-size: 1.5rem;
   transition: all 0.2s;
   box-shadow: 4px 4px #17FC2A;
+  font-weight: 900;
 
   &:hover {
     background-color: #17FC2A;

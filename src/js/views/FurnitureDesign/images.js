@@ -11,7 +11,7 @@ const images = {
       '/assets/images/furniture/furniture_4.png',
       '/assets/images/furniture/furniture_5.png',
       '/assets/images/furniture/furniture_6.png',
-      '/assets/images/furniture/furniture_7.png',
+      // '/assets/images/furniture/furniture_7.png',
     ]
   },
   prototype2: {
