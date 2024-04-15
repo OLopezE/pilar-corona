@@ -12,7 +12,8 @@ function App() {
           <Route path='/' element={<MainMenu />} />
           <Route path='/curriculum' element={<Curriculum />} />
           <Route path='/projects' element={<Projects />} />
-          <Route path='/extra' element={<Curriculum />} />
+          <Route path='/extra' element={<p>Extra</p>} />
+          <Route path='/contact' element={<p>Contact</p>} />
         </Routes>
       </Layout>
     </BrowserRouter>

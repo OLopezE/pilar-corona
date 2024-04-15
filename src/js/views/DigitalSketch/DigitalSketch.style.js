@@ -8,6 +8,7 @@ const DigitalSketchLayout = styled.section`
 
   > div {
     padding: 1rem;
+    max-width: 1200px;
 
     > h2 {
       text-align: left;

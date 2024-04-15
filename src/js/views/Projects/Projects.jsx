@@ -8,7 +8,7 @@ import FurnitureDesign from '../FurnitureDesign';
 const Projects = () => {
   return (
     <ProjectsSection>
-        <h1>My architecture projects</h1>
+        <h1>ARCHITECTURE PROJECTS</h1>
         <DigitalSketch />
         <FurnitureDesign />
     </ProjectsSection>

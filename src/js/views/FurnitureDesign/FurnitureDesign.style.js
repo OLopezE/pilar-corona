@@ -3,7 +3,7 @@ import styled from "styled-components";
 const FurnitureDesignContainer = styled.section`
   display: grid;
   min-height: 100svh;
-  padding-top: 4rem;
+  place-content: center;
 
   background-image: linear-gradient(#888 .1rem, transparent .1rem), linear-gradient(90deg, #888 .1rem, transparent .1rem);
   background-size: calc(99vw / 4) calc(99vw / 4);
@@ -19,6 +19,7 @@ const FurnitureDesignContainer = styled.section`
   }
 
   > div {
+    max-width: 1200px;
     padding: 2rem 1rem;
     display: flex;
     flex-direction: column;

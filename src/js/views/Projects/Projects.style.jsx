@@ -2,11 +2,12 @@ import styled from "styled-components";
 
 const ProjectsSection = styled.section`
   display: grid;
-  place-content: center;
   padding-top: 4rem;
 
   h1 {
-    padding-left: 1rem;
+    max-width: 1200px;
+    justify-self: center;
+    width: 100%;
   }
 
   @media (min-width: 980px) {
