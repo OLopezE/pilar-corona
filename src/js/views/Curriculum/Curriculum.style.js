@@ -32,7 +32,7 @@ const SoftwareList = styled.div`
     width: 100%;
     height: 100%;
     color: #ea9cf4;
-    transition: all 0.4s;
+    transition: all 0.4s ease;
 
     &:hover {
       color: #17fc2a;

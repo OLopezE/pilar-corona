@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const MyLayout = styled.div`
@@ -65,18 +66,22 @@ const NavigationBar = styled.div`
     align-items: center;
     justify-content: center;
   }
+`;
 
-  a {
-    font-size: 0.75rem;
-    mix-blend-mode: exclusion;
-    border-radius: 8px;
-    padding: 8px 12px;
+const NavLink = styled(Link)`
+  font-size: 0.75rem;
+  mix-blend-mode: exclusion;
+  border-radius: 8px;
+  padding: 8px 12px;
+  transition: all 0.5s ease;
+  background-color: ${({ active }) => active ? '#FFFFFF10' : 'none'};
+  color: ${({ active }) => active ? '#ea9cf4' : 'none'};
+  ${({ active }) => active ? 'filter: drop-shadow(0 0 0.75rem #ea9cf4)' : 'none'};
 
-    &:hover {
-      filter: drop-shadow(0 0 0.75rem #ea9cf4);
-      color: #ea9cf4;
-      background-color: #FFFFFF10;
-    }
+  &:hover {
+    color: #ea9cf4;
+    filter: drop-shadow(0 0 0.75rem #ea9cf4);
+    background-color: #FFFFFF10;
   }
 `;
 
@@ -110,5 +115,6 @@ export {
   LogoButton,
   NavigationBar,
   BurgerButton,
-  BrandName
+  BrandName,
+  NavLink
 };

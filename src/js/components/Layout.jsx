@@ -12,6 +12,7 @@ import {
   BrandName
 } from './Layout.style';
 import { Link } from 'react-router-dom';
+import Navbar from './Navbar';
 
 const Layout = ({ children }) => {
   const navigate = useNavigate();
@@ -30,12 +31,8 @@ const Layout = ({ children }) => {
       >
         <img src={burger} />
       </BurgerButton>
-      <NavigationBar visibility={displayNav}>
-        <Link to="/curriculum">Curriculum</Link>
-        <Link to="/projects">Architecture projects</Link>
-        <Link to="/extra">Extra</Link>
-        <Link to="/contact">Contact me</Link>
-      </NavigationBar>
+
+      <Navbar display={displayNav} />
 
       {children}
 
